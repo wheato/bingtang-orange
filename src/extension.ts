@@ -7,7 +7,6 @@ import { createMarketCoinsData, getQueryList } from './utils';
 const coinsMap: CoinGeckoListAll = new Map();
 const coinGeckoClient = new CoinGecko();
 const mockWatchList: UserWatchSymbols = ['BTC', 'ETH', 'BNB', 'ALPACA'];
-const VS_CURRENCY = 'usd';
 
 export async function activate(context: vscode.ExtensionContext) {
 	

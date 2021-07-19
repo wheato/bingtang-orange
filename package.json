@@ -19,7 +19,30 @@
 				"command": "bingtang-orange.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "bingtang-orange",
+					"title": "冰糖橙",
+					"icon": "media/dep.svg"
+				}
+			]
+		},
+		"views": {
+			"bingtang-orange": [
+				{
+					"id": "spot",
+					"name": "现货",
+					"when": "explorer"
+				},
+				{
+					"id": "features",
+					"name": "U本位合约",
+					"when": "explorer"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
